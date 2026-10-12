@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+header{
+    display : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;    
+    align-items: center;
+    
+}
+nav ul{
+    list-style-type: none;
+    display : flex;
+    justify-content: space-between;            
+}
+nav ul li a{
+    text-decoration :none;
+    color: black;
+}
+
+nav{
+    flex-grow :0.1;    
+}
+
+.devis{
+    color : white;
+    background: #FF6418;
+    text-decoration : none;
+    padding: 1em 1em;
+    border-radius : .8em;
+    
+}
