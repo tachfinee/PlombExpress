@@ -5,10 +5,47 @@
     font-family: Arial;
 }
 
+.container {
+    /* width: 80vw;
+    margin: auto; */
+    
+}
+
+.margin-auto{
+    width: 80vw;
+    margin: auto;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-collumn-center {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-collumn-end{
+    flex-direction : column;
+    justify-content : flex-end;
+}
+
+.gap-10 {
+    gap: 4rem;
+}
+.gap-5 {
+    gap: 1.5rem;
+}
+
+.flex-start {
+    justify-content: start;
+}
+
 header{
     display : flex;
     flex-direction : row;
-    justify-content: space-around;
     padding-top: 1em;
     padding-bottom: 1em;    
     align-items: center;
@@ -26,6 +63,8 @@ nav ul li a{
 
 nav{
     flex-grow :0.1;    
+
+    
 }
 
 .devis{
@@ -35,4 +74,32 @@ nav{
     padding: 1em 1em;
     border-radius : .8em;
     
+    
+}
+
+
+.services{
+    color : black;
+    border : solid #486176;
+    background : white;
+    text-decoration : none;
+    padding: 1em 1em;
+    border-radius : .8em;
+}
+
+.hero{
+    background : #F3F7FA;
+}
+
+.borderone{
+    border :solid black;
+}
+
+.flex-space-around{
+    display : flex;
+    justify-content: space-around;
+}
+
+.flex-center{
+    align-items : center;
 }
