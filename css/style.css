@@ -23,11 +23,13 @@
 }
 
 .flex-collumn-center {
+    display : flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .flex-collumn-end{
+    display : flex;
     flex-direction : column;
     justify-content: flex-end;
 }
@@ -48,11 +50,9 @@
     justify-content: start;
 }
 
-header{
-    display : flex;
-    flex-direction : row;
+.padding-top-bottom{
     padding-top: 1em;
-    padding-bottom: 1em;    
+    padding-bottom: 1em;  
     align-items: center;
     
 }
@@ -70,7 +70,13 @@ nav{
     flex-grow :0.1;    
 
     
+    
+    
 }
+header{
+    /* gap : 1rem; */
+}
+
 
 .devis{
     color : white;
@@ -94,7 +100,8 @@ nav{
 
 .hero{
     background : #F3F7FA;
-    height : 100vh;
+    height : 90vh;
+    
 }
 
 .borderone{
@@ -119,4 +126,14 @@ nav{
 
 .bordertwo{
     border : solid red;
+}
+
+.margin-top{
+    margin-top: 4rem;
+}
+
+.margin-auto-left-right{
+    width : 80vw;
+    margin-left : auto;
+    margin-right : auto;
 }
