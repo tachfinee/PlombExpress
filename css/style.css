@@ -29,7 +29,10 @@
 
 .flex-collumn-end{
     flex-direction : column;
-    justify-content : flex-end;
+    justify-content: flex-end;
+}
+.flextwo{
+    display:flex;
 }
 
 .gap-10 {
@@ -38,7 +41,9 @@
 .gap-5 {
     gap: 1.5rem;
 }
-
+.gap-15{
+    gap:8rem;
+}
 .flex-start {
     justify-content: start;
 }
@@ -89,6 +94,7 @@ nav{
 
 .hero{
     background : #F3F7FA;
+    height : 100vh;
 }
 
 .borderone{
@@ -102,4 +108,15 @@ nav{
 
 .flex-center{
     align-items : center;
+}
+
+.padding-one{
+    padding: 1em;
+}
+.margin-top{
+    margin-top : auto;
+}
+
+.bordertwo{
+    border : solid red;
 }
