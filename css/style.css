@@ -21,13 +21,32 @@
     display: flex;
     justify-content: space-between;
 }
-
+/* .flex-space-around{
+    justify-content : space-around
+} */
+.flex-collumn{
+    display : flex;
+    flex-direction: column;
+}
+.flex-space-evenly{
+    justify-content: space-evenly;
+}
 .flex-collumn-center {
     display : flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.flex-collumn-space-between{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.align-center{
+    align-items : center;
+}
+.align-start{
+    align-items : start;
+}
 .flex-collumn-end{
     display : flex;
     flex-direction : column;
@@ -43,13 +62,23 @@
 .gap-5 {
     gap: 1.5rem;
 }
+
+.gap-2{
+    gap:1rem;
+}
 .gap-15{
     gap:8rem;
+}
+
+.width-100{
+    width:100%
 }
 .flex-start {
     justify-content: start;
 }
-
+.margin-one{
+    margin : 1rem;
+}
 .padding-top-bottom{
     padding-top: 1em;
     padding-bottom: 1em;  
@@ -69,8 +98,6 @@ nav ul li a{
 nav{
     flex-grow :0.1;    
 
-    
-    
     
 }
 header{
@@ -112,6 +139,14 @@ header{
     display : flex;
     justify-content: space-around;
 }
+.flex-s{
+    display :flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+.flex-collum-space-around{
+    justify-content: space-around;
+}
 
 .flex-center{
     align-items : center;
@@ -136,4 +171,38 @@ header{
     width : 80vw;
     margin-left : auto;
     margin-right : auto;
+}
+
+.savoir-faire{
+    height : 100vh;
+}
+
+.red{
+    background: red;
+}
+
+.margin-a{
+
+    margin-top : 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.blue{
+    background: blue;
+}
+
+.border-cards{
+    border : .1rem solid #DCE5EC;
+    border-radius : 1rem;
+}
+
+.border-top-radius{
+    border-top-right-radius:1rem ;
+    border-top-left-radius: 1rem;
+}
+
+.text-decoration{
+    text-decoration : none;
+    color : black
 }
