@@ -241,3 +241,15 @@ header{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
+.font-white{
+    color:white;
+}
+
+.grow{
+    flex-grow : 1;
+}
+
+.grid-4-collumns{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
