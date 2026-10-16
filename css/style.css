@@ -262,3 +262,7 @@ header{
 .padding-footer{
     padding-top : .5rem;
 }
+.text-decoration-white {
+    text-decoration: none;
+    color:white;
+}
