@@ -2,6 +2,32 @@
     .flex-responsive{
         display : flex;
         flex-direction: column;
-        gap : 
+        gap : 1rem;
+        height : auto;
+        
     }
+    .flex-responsive-start{
+        align-items: flex-start;
+    }
+    .flex-responsive-padding{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .size-responsive{
+        width : 100%;
+        height : auto;
+    }
+    .gap-responsive-2{
+        gap:1.5rem;
+    }
+}
+
+.flex-responsive-stretch{
+    align-items: stretch;
+}
+.flex-reponsive-row-start{
+    display : flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap :1rem;
 }
