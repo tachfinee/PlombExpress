@@ -215,11 +215,11 @@ header{
 }
 
 .third{
-    height : 65vh;
+    height : 60vh;
 }
 
 .four{
-    height : 35vh;
+    height : 40vh;
 }
 
 .background-blue{
@@ -252,4 +252,13 @@ header{
 .grid-4-collumns{
     display : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: start;
+}
+
+.nostyle-list{
+    list-style-type: none;
+}
+
+.padding-footer{
+    padding-top : .5rem;
 }
