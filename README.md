@@ -1,6 +1,6 @@
 # PLOMB'EXPRESS
 
-## Déscription
+## Description
 Plomb'Express est un projet de site web vitrine pour une entreprise spécialisée dans les travaux de plomberie, l'installation sanitaire et le dépannage. L'objectif est de renforcer sa présence en ligne en présentant ses services et en facilitant la prise de contact avec ses clients.
 
 ## Ma contribution
