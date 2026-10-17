@@ -1,4 +1,4 @@
-@media(max-width : 900px) {
+@media(max-width : 1020px) {
     .flex-responsive{
         display : flex;
         flex-direction: column;
@@ -20,9 +20,7 @@
     .gap-responsive-2{
         gap:1.5rem;
     }
-}
-
-.flex-responsive-stretch{
+    .flex-responsive-stretch{
     align-items: stretch;
 }
 .flex-reponsive-row-start{
@@ -31,3 +29,5 @@
     justify-content: flex-start;
     gap :1rem;
 }
+}
+
